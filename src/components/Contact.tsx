@@ -15,7 +15,7 @@ const Contact = () => (
       <AnimatedSection delay={0.15}>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="mailto:keith@example.com"
+            href="mailto:keithtann97@gmail.com"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium text-sm hover:opacity-90 transition-opacity"
           >
             <Mail size={18} />
