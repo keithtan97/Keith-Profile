@@ -1,7 +1,7 @@
 import AnimatedSection from "./AnimatedSection";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, GraduationCap } from "lucide-react";
 
 const techStack = ["Python", "OpenAI API", "Moodle", "PHP / MySQL", "JavaScript", "Learning Analytics"];
 
@@ -9,98 +9,55 @@ const Projects = () => (
   <section id="projects" className="section-padding bg-secondary/30">
     <div className="section-container">
       <AnimatedSection>
-        <div className="accent-line mb-6" />
-        <h2 className="section-title">Projects</h2>
-        <p className="section-subtitle mb-12">Things I've built and contributed to.</p>
+        <p className="text-sm font-semibold text-primary uppercase tracking-widest text-center mb-3">Featured Work</p>
+        <h2 className="section-title text-center">Projects Built For Impact</h2>
       </AnimatedSection>
 
       <AnimatedSection>
-        <div className="card-elevated border-l-4 border-l-primary">
-          <span className="text-xs font-medium text-primary uppercase tracking-wider">
-            Final Year Project · Nanyang Technological University
-          </span>
-          <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mt-3 mb-6">
-            Ampeers – Adaptive AI-Based Learning Platform
-          </h3>
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mt-12">
+          {/* Visual */}
+          <div className="rounded-2xl bg-gradient-to-br from-muted to-secondary aspect-[4/3] flex items-center justify-center">
+            <GraduationCap className="h-16 w-16 text-primary/40" />
+          </div>
 
-          {/* Challenge */}
-          <div className="mb-6">
-            <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">⚡ Challenge</h4>
-            <p className="text-foreground/80 leading-relaxed">
-              Traditional learning platforms are largely static and lack personalization, making it difficult for students to identify knowledge gaps and stay engaged in their learning process.
+          {/* Content */}
+          <div>
+            <span className="text-xs font-semibold text-primary uppercase tracking-widest">
+              Final Year Project [NTU]
+            </span>
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mt-2 mb-6">
+              AI Based Learning Management System
+            </h3>
+
+            <p className="text-foreground/70 mb-2">
+              <span className="font-semibold text-foreground">Problem:</span> Static study materials lack personalization, resulting in inefficient learning pathways.
             </p>
-          </div>
 
-          {/* Approach */}
-          <div className="mb-6">
-            <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">💡 Approach</h4>
-            <p className="text-foreground/80 leading-relaxed mb-2">
-              Designed an AI-based learning application for electronics — <span className="font-semibold text-foreground">Ampeers</span> — that personalises learning pathways based on student performance.
+            <p className="text-foreground/70 mb-5">
+              <span className="font-semibold text-primary">Solution:</span> Developed an adaptive AI learning application featuring a real-time chatbot and dynamic analytics tracking.
             </p>
-            <p className="text-foreground/80 leading-relaxed">
-              The system integrates a real-time chatbot, adaptive quizzes, and learning analytics to provide continuous feedback and targeted revision support.
-            </p>
-          </div>
 
-          {/* Impact */}
-          <div className="mb-6">
-            <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">🚀 Impact</h4>
-            <ul className="space-y-2">
-              <li className="flex items-start gap-3 text-foreground/80">
-                <span className="accent-dot mt-2" />
-                <span>Enabled a more engaging and structured learning experience by combining adaptive learning, AI, and gamification into a single LMS platform.</span>
-              </li>
-              <li className="flex items-start gap-3 text-foreground/80">
-                <span className="accent-dot mt-2" />
-                <span>Demonstrated the feasibility of integrating adaptive learning systems into existing LMS environments to improve student engagement and learning outcomes.</span>
-              </li>
-            </ul>
-          </div>
+            <div className="border-l-2 border-primary/40 pl-4 mb-6 bg-secondary/50 rounded-r-lg py-3 pr-4">
+              <p className="font-semibold text-foreground text-sm mb-1">Impact & Contribution:</p>
+              <p className="text-foreground/70 text-sm leading-relaxed">
+                Delivered personalized learning pathways to improve diagnostic testing efficiency. Architected the core AI recommendation engine and led end-to-end full-stack development.
+              </p>
+            </div>
 
-          {/* My Role */}
-          <div className="mb-6">
-            <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">👤 My Role</h4>
-            <ul className="space-y-2">
-              <li className="flex items-start gap-3 text-foreground/80">
-                <span className="accent-dot mt-2" />
-                <span>Led a team of 7 in the design and development of the platform, overseeing system architecture and integration.</span>
-              </li>
-              <li className="flex items-start gap-3 text-foreground/80">
-                <span className="accent-dot mt-2" />
-                <span>Developed the AI chatbot backend using Python and OpenAI API, and implemented core platform features including adaptive learning logic and gamification tools.</span>
-              </li>
-              <li className="flex items-start gap-3 text-foreground/80">
-                <span className="accent-dot mt-2" />
-                <span>Worked across both technical and product aspects to ensure the platform delivers meaningful user experience and practical value.</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Tech Stack */}
-          <div className="mb-8">
-            <h4 className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">🛠 Tech Stack</h4>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               {techStack.map((tech) => (
-                <Badge key={tech} variant="secondary" className="text-sm px-3 py-1">
+                <Badge key={tech} variant="outline" className="text-xs border-primary/40 text-primary">
                   {tech}
                 </Badge>
               ))}
             </div>
-          </div>
 
-          {/* CTA */}
-          <div className="flex flex-wrap gap-3">
-            <Button
-              variant="default"
-              onClick={() => window.open("https://ampeers.ntu.edu.sg", "_blank", "noopener,noreferrer")}
-            >
-              Explore Platform <ExternalLink className="ml-1 h-4 w-4" />
-            </Button>
             <Button
               variant="outline"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               onClick={() => window.open("#", "_blank", "noopener,noreferrer")}
             >
-              View Project <ExternalLink className="ml-1 h-4 w-4" />
+              <ExternalLink className="mr-2 h-4 w-4" /> View Live App
             </Button>
           </div>
         </div>
