@@ -59,7 +59,7 @@ const Projects = () => (
             <Button
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              onClick={() => window.open("#", "_blank", "noopener,noreferrer")}
+              onClick={() => window.open("https://www.ampeers.io/", "_blank", "noopener,noreferrer")}
             >
               <ExternalLink className="mr-2 h-4 w-4" /> View Live App
             </Button>
