@@ -11,7 +11,7 @@ const skillGroups = [
   },
   {
     category: "Tools",
-    skills: ["Moodle", "OpenAI API", "Git", "Microsoft Office"],
+    skills: ["Moodle", "OpenAI API", "Microsoft Office"],
   },
   {
     category: "Soft Skills",

@@ -1,5 +1,5 @@
 import AnimatedSection from "./AnimatedSection";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Phone } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" className="section-padding bg-secondary/30">
@@ -22,7 +22,14 @@ const Contact = () => (
             Email Me
           </a>
           <a
-            href="https://linkedin.com"
+            href="tel:+6597332275"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
+          >
+            <Phone size={18} />
+            +65 9733 2275
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tanhakleongkeith/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
