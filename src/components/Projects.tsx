@@ -21,11 +21,11 @@ const Projects = () => (
             <div className="relative group">
               {/* Glow behind card */}
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/20 via-accent/15 to-primary/10 blur-xl opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-              <div className="relative rounded-2xl bg-gradient-to-br from-card to-secondary border border-border/60 shadow-2xl aspect-[4/3] flex items-center justify-center p-12 overflow-hidden">
+              <div className="relative rounded-3xl bg-gradient-to-br from-card to-secondary border border-border/60 shadow-2xl aspect-[4/3] flex items-center justify-center p-12 overflow-hidden">
                 {/* Subtle pattern overlay */}
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,hsl(var(--primary)/0.06)_0%,transparent_60%)]" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,hsl(var(--accent)/0.05)_0%,transparent_50%)]" />
-                <img src={ampeersLogo} alt="Ampeers Logo" className="relative max-h-full max-w-[75%] object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" />
+                <img src={ampeersLogo} alt="Ampeers Logo" className="relative max-h-full max-w-[75%] object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500 rounded-2xl [mix-blend-mode:multiply]" />
               </div>
             </div>
           </div>
