@@ -5,7 +5,7 @@ const points = [
   "I thrive in growth environments where I can learn, adapt, and contribute meaningfully.",
   "A strong people-oriented individual who values collaboration, communication, and shared purpose.",
   "My experiences span technical execution, project coordination, and cross-functional teamwork.",
-  "I enjoy working across cultures and environments, with international exposure in Vietnam.",
+  "I enjoy working across cultures and environments, with international exposure in Vietnam and Thailand.",
   "Outside of work, I am passionate about music, creativity, and connecting with people.",
 ];
 
