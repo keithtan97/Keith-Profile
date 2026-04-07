@@ -2,20 +2,28 @@ import AnimatedSection from "./AnimatedSection";
 
 const skillGroups = [
   {
-    category: "Engineering",
-    skills: ["Electrical Systems", "Circuit Design", "Power Transmission", "Arduino / Microcontrollers"],
+    category: "Hardware & Instrumentation",
+    skills: ["Digital Multimeter", "Function Generator", "Oscilloscope", "Soldering"],
+  },
+  {
+    category: "Engineering Skills",
+    skills: ["Electrical Wiring & Installation", "Equipment Installation & Monitoring", "Solar PV Systems"],
+  },
+  {
+    category: "CAD & Simulation Tools",
+    skills: ["MATLAB", "Simulink", "LTspice", "PLECS", "Jupyter Notebook", "AutoCAD"],
   },
   {
     category: "Programming",
-    skills: ["Python", "HTML / CSS", "JavaScript", "System Architecture"],
+    skills: ["Python", "C", "PHP / HTML / CSS / JavaScript"],
   },
   {
-    category: "Tools",
-    skills: ["Moodle", "OpenAI API", "Microsoft Office"],
+    category: "Languages",
+    skills: ["English (Fluent)", "Chinese (Fluent)", "Hokkien (Conversational)"],
   },
   {
-    category: "Soft Skills",
-    skills: ["Communication", "Collaboration", "Project Coordination", "Cross-Cultural Teamwork"],
+    category: "Interests",
+    skills: ["Guitar & Singing", "Plant & Animal Care", "Photography / Videography"],
   },
 ];
 
@@ -28,7 +36,7 @@ const Skills = () => (
         <p className="section-subtitle mb-12">What I bring to the table.</p>
       </AnimatedSection>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {skillGroups.map((group, i) => (
           <AnimatedSection key={i} delay={i * 0.1}>
             <div className="card-elevated h-full">

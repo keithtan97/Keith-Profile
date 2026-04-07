@@ -1,7 +1,8 @@
 import AnimatedSection from "./AnimatedSection";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { ExternalLink, GraduationCap } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import ampeersLogo from "@/assets/ampeers-logo.png";
 
 const techStack = ["Python", "OpenAI API", "Moodle", "PHP / MySQL", "JavaScript", "Learning Analytics"];
 
@@ -16,8 +17,8 @@ const Projects = () => (
       <AnimatedSection>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mt-12">
           {/* Visual */}
-          <div className="rounded-2xl bg-gradient-to-br from-muted to-secondary aspect-[4/3] flex items-center justify-center">
-            <GraduationCap className="h-16 w-16 text-primary/40" />
+          <div className="rounded-2xl bg-gradient-to-br from-muted to-secondary aspect-[4/3] flex items-center justify-center p-10">
+            <img src={ampeersLogo} alt="Ampeers Logo" className="max-h-full max-w-full object-contain" />
           </div>
 
           {/* Content */}
