@@ -1,12 +1,12 @@
 import AnimatedSection from "./AnimatedSection";
 
 const points = [
-  "An engineering student with experience in both infrastructure projects and digital systems.",
-  "I thrive in growth environments where I can learn, adapt, and contribute meaningfully.",
-  "A strong people-oriented individual who values collaboration, communication, and shared purpose.",
-  "My experiences span technical execution, project coordination, and cross-functional teamwork.",
-  "I enjoy working across cultures and environments, with international exposure in Vietnam and Thailand.",
-  "Outside of work, I am passionate about music, creativity, and connecting with people.",
+  "Driven by the belief that meaningful systems are built through intentional engineering and human-centred thinking.",
+  "Thrive in growth environments — constantly seeking to learn, adapt, and take ownership of challenges.",
+  "People-first approach to work: I believe the best outcomes come from trust, clear communication, and shared purpose.",
+  "Experienced across technical execution, project coordination, and cross-functional collaboration with diverse stakeholders.",
+  "International exposure through hands-on projects in Vietnam and Thailand, building adaptability and cultural awareness.",
+  "Outside of engineering, I find energy in music, photography, and connecting with people from all walks of life.",
 ];
 
 const About = () => (

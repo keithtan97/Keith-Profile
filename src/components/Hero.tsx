@@ -35,7 +35,7 @@ const Hero = () => (
             Building meaningful systems at the intersection of engineering, technology, and people.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-8 max-w-lg">
-            An Electrical & Electronic Engineering student passionate about growth, collaboration, and creating real-world impact.
+            Electrical &amp; Electronic Engineering student with experience in infrastructure projects and AI-enabled platforms. Passionate about working in growth environments and contributing to impactful, real-world systems.
           </p>
           <div className="flex flex-wrap gap-4">
             <motion.a
@@ -81,21 +81,6 @@ const Hero = () => (
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="flex justify-center mt-16"
-      >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex justify-center pt-2"
-        >
-          <div className="w-1 h-2 rounded-full bg-primary" />
-        </motion.div>
-      </motion.div>
     </div>
   </section>
 );
