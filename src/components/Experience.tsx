@@ -8,11 +8,11 @@ const experiences = [
     location: "Ho Chi Minh City, Vietnam",
     period: "Dec 2024 – Aug 2025",
     points: [
-      "Led multiple cross-functional intern teams on product development and market validation for MET EV's mobility platform",
-      "Conducted extensive market research across Ho Chi Minh City universities, engaging students, dealers, and operators to assess EV adoption behaviour and infrastructure readiness",
-      "Developed youth-driven market engagement initiatives with FPT University and participated in outreach programmes with RMIT and University of Economics",
-      "Participated in stakeholder and partnership discussions with universities, coffee retail operators, and startup partners, contributing to pilot collaboration",
-      "Consolidated field research insights to support early-stage EV adoption strategy and product positioning for MET EV's expansion",
+      "Led cross-functional intern teams on product development and market validation for an EV mobility platform",
+      "Drove field research across Ho Chi Minh City universities, engaging students, dealers, and operators to assess EV adoption readiness",
+      "Initiated youth-driven market engagement programmes with FPT University, RMIT, and University of Economics",
+      "Contributed to stakeholder discussions with university partners, retail operators, and startup collaborators to shape pilot strategy",
+      "Synthesised field insights into actionable recommendations for early-stage EV adoption and market positioning",
     ],
   },
   {
@@ -22,11 +22,11 @@ const experiences = [
     location: "Singapore",
     period: "Oct 2020 – Jun 2023",
     points: [
-      "Oversaw execution of 66 kV / 22 kV transmission infrastructure projects across substations and public roadworks, including transformer replacement, switchgear installation, and cable diversion",
-      "Coordinated on-site operations involving contractors, engineers, and safety personnel, leading toolbox meetings and managing installation sequencing",
-      "Managed site constraints including underground utility clashes, traffic management, and public concerns, collaborating with LTA, PUB, and NEA",
-      "Supported testing, commissioning, and energisation of transmission assets by preparing switching plans and verifying system readiness",
-      "Facilitated site inspections and regulatory approvals, verifying installation quality to ensure compliance with safety and engineering standards",
+      "Managed execution of 66 kV / 22 kV transmission infrastructure projects including transformer replacement, switchgear installation, and cable diversion",
+      "Coordinated multi-party site operations with contractors, engineers, and safety teams — led toolbox meetings and sequenced installations",
+      "Navigated complex site constraints involving underground utilities, traffic management, and public agency coordination (LTA, PUB, NEA)",
+      "Supported testing, commissioning, and energisation of transmission assets through switching plans and system readiness verification",
+      "Ensured installation quality and regulatory compliance through structured site inspections and approval processes",
     ],
   },
   {
@@ -35,9 +35,9 @@ const experiences = [
     location: "Khao Yai, Thailand",
     period: "Mar 2017 – Apr 2017",
     points: [
-      "Implemented sustainability features, installed off-grid solar PV system with battery backup",
-      "Designed and implemented about 40 energy-efficient lighting lamps throughout the learning center premises",
-      "Conducted workshops and talks about sustainability to approximately 50–60 students across 3 institutions",
+      "Installed an off-grid solar PV system with battery backup, delivering sustainable energy to the learning centre",
+      "Designed and implemented 40+ energy-efficient lighting fixtures across the facility",
+      "Conducted sustainability workshops for 50–60 students across 3 institutions, bridging technical knowledge with community impact",
     ],
   },
 ];

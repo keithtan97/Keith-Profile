@@ -24,28 +24,38 @@ const Projects = () => (
             </div>
           </div>
 
-          {/* Content */}
           <div>
             <span className="text-xs font-semibold text-primary uppercase tracking-widest">
               Final Year Project [NTU]
             </span>
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mt-2 mb-6">
-              AI Based Learning Management System
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mt-2 mb-2">
+              Ampeers – AI-Powered Adaptive Learning Platform
             </h3>
-
-            <p className="text-foreground/70 mb-2">
-              <span className="font-semibold text-foreground">Problem:</span> Static study materials lack personalization, resulting in inefficient learning pathways.
+            <p className="text-foreground/60 text-sm mb-6">
+              Built to transform static learning into a personalised, engaging study experience.
             </p>
 
-            <p className="text-foreground/70 mb-5">
-              <span className="font-semibold text-primary">Solution:</span> Developed an adaptive AI learning application featuring a real-time chatbot and dynamic analytics tracking.
-            </p>
+            <div className="space-y-4 mb-6">
+              <div>
+                <p className="font-semibold text-foreground text-sm mb-1">Challenge</p>
+                <p className="text-foreground/70 text-sm leading-relaxed">
+                  Traditional learning platforms are largely static and do not adapt to individual student needs, making it difficult to identify knowledge gaps and stay engaged.
+                </p>
+              </div>
 
-            <div className="border-l-2 border-primary/40 pl-4 mb-6 bg-secondary/50 rounded-r-lg py-3 pr-4">
-              <p className="font-semibold text-foreground text-sm mb-1">Impact & Contribution:</p>
-              <p className="text-foreground/70 text-sm leading-relaxed">
-                Delivered personalized learning pathways to improve diagnostic testing efficiency. Architected the core AI recommendation engine and led end-to-end full-stack development.
-              </p>
+              <div>
+                <p className="font-semibold text-primary text-sm mb-1">Approach</p>
+                <p className="text-foreground/70 text-sm leading-relaxed">
+                  Designed and developed Ampeers, an AI-powered adaptive learning platform that personalises learning pathways based on student performance. The system integrates a real-time chatbot, adaptive quizzes, and learning analytics to provide continuous feedback and targeted revision support.
+                </p>
+              </div>
+
+              <div className="border-l-2 border-primary/40 pl-4 bg-secondary/50 rounded-r-lg py-3 pr-4">
+                <p className="font-semibold text-foreground text-sm mb-1">Impact</p>
+                <p className="text-foreground/70 text-sm leading-relaxed">
+                  Improved learning engagement by combining AI, gamification, and structured content into a single platform. Demonstrates how adaptive learning can be integrated into existing LMS environments to support more effective learning.
+                </p>
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-2 mb-6">
@@ -61,7 +71,7 @@ const Projects = () => (
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               onClick={() => window.open("https://www.ampeers.io/", "_blank", "noopener,noreferrer")}
             >
-              <ExternalLink className="mr-2 h-4 w-4" /> View Live App
+              <ExternalLink className="mr-2 h-4 w-4" /> Explore Platform
             </Button>
           </div>
         </div>
